@@ -4,7 +4,7 @@ function pressed() {
     var teseter = input.split("")
     if (input.length >= 8) {
         document.getElementById("condition5").style.color = "green";
-        document.getElementById("condition3").style.fontWeight = "1";
+        document.getElementById("condition5").style.fontWeight = "1";
     } else {
         document.getElementById("condition5").style.color = "red";
         document.getElementById("condition5").style.fontWeight = "1000";
