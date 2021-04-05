@@ -32,7 +32,10 @@ function pressed() {
         }
     }
     for (i of input.split("")) {
-        if (i === i.toUpperCase()) {
+        if (isNaN(i) == false){
+            break;
+        }
+        else if (i === i.toUpperCase()) {
             document.getElementById("condition1").style.color = "green";
             document.getElementById("condition1").style.fontWeight = "1";
             break;
@@ -42,6 +45,9 @@ function pressed() {
         }
     }
     for (i of input.split("")) {
+        if (isNaN(i) == false){
+        break;
+        }
         if (i === i.toLowerCase()) {
             document.getElementById("condition2").style.color = "green";
             document.getElementById("condition2").style.fontWeight = "1";
